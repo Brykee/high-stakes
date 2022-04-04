@@ -16,11 +16,17 @@ html {
 }
 
 .cardPic {
-  width: 150px;
-  height: 250px;
+  width: 140px;
+  height: 190px;
   border-radius: 10px;
+  margin: 5px;
+  filter: drop-shadow(1px 1px 1px);
 }
 
-.cards {
-  display: flex;
+.table {
+  position: absolute;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
